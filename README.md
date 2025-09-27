@@ -10,10 +10,11 @@ You will work in teams of 3 students.
 
 The requirements are the following: 
 
-Create a custom sckikit-learn classifier based on the template provided. You should let users either provide an exiting bayesian network model. If a model isn't  provided, you should automatically perform structure learning in fit, before the estimation of the parameters. 
-Apply the new Bayesian Network classifier to the dataset using an scikit-learn pipeline
-Benchmark against other one other scikit learn classifier
-Amongst the wrongfully classified claims, select 5 instances and use the structure of the learned bayesian network, to interpret the misclassification. 
+1. Create a custom sckikit-learn classifier based on the template provided. You should let users either provide an exiting bayesian network model. If a model isn't  provided, you should automatically perform structure learning in fit, before the estimation of the parameters. 
+2. Apply the new Bayesian Network classifier to the dataset using an scikit-learn pipeline
+3. Benchmark against other one other scikit learn classifier
+4. Amongst the wrongfully classified claims, select 5 instances and use the structure of the learned bayesian network, to interpret the misclassification. 
+
 Template for an sklearn classifier: 
 
 import numpy as np
